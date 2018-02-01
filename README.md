@@ -2,6 +2,8 @@
 gradle ver4.5
 ## コマンドラインオプション
 - -i (--info)
+
+    なんか
 - -s (--stacktrace)
 - -S (--full-stacktrace)
 - -d (--debug)
