@@ -3,6 +3,7 @@
 ## tasks
 何もプラグインを入れてない状態
 
+```
 ------------------------------------------------------------
 All tasks runnable from root project
 ------------------------------------------------------------
@@ -24,4 +25,5 @@ model - Displays the configuration model of root project 'hello-world'. [incubat
 projects - Displays the sub-projects of root project 'hello-world'.
 properties - Displays the properties of root project 'hello-world'.
 tasks - Displays the tasks runnable from root project 'hello-world'.
+```
 
