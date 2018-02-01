@@ -8,7 +8,7 @@ plugins {
     id 'java-library'
 }
 ```
-の記述によりjavaプラグインが入ってタスクが増えていることがわかる。
+の記述によりjavaプラグインが入って [Hello World](../hello-world) よりタスクが増えていることがわかる。
 
 
 ```
