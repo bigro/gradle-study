@@ -6,4 +6,4 @@ gradle ver4.5
 - -S (--full-stacktrace)
 - -d (--debug)
 ## その他
-.gitigonreはgibo使ってみたけどなんか多いな
+.gitigonreは[gibo](https://github.com/simonwhitaker/gibo)使ってみたけどなんか多いな
