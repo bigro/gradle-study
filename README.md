@@ -1,1 +1,1 @@
-# gradle-study
+# Gradleのお勉強
