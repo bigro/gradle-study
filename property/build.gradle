@@ -1,0 +1,9 @@
+// システムプロパティを出力する
+task greet << {
+	println System.properties['message']
+}
+
+//　プロジェクトプロパティを出力する
+task hoge << {
+	println hogehoge;
+}
