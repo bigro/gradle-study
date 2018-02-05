@@ -1,5 +1,7 @@
 # java-library
-`gradle init --type java-library` で自動生成したもの
+`gradle init --type java-library` で自動生成したもの。
+
+Javaのビルドに必要なタスクが追加される。
 
 ## tasks
 ```
