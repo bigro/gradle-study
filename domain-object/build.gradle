@@ -1,0 +1,9 @@
+println 'デフォルトの依存関係：'
+repositories.each { println it.name }
+
+repositories {
+    mavenCentral()
+}
+
+println 'Maven Centralリポジトリ追加後：'
+repositories.each { println it.name }
