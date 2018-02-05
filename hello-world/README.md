@@ -1,4 +1,6 @@
 # Hello World
+`hello` タスクのみを追加した状態。
+`gradle hello` で起動。
 
 ## tasks
 何もプラグインを入れてない状態
