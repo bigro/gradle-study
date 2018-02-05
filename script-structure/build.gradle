@@ -1,0 +1,10 @@
+// ローカル変数はdefを使うことが多いがStringなどの型宣言もできる
+def hoge = 'ほげ'
+
+// 型宣言なしでの変数宣言はできない
+// 型宣言がないものは委譲されるドメインオブジェクトのプロパティとみなされる
+// fuga = 'ほげ'  ←エラーとなる
+
+task greet << {
+	println System.properties['message']
+}
