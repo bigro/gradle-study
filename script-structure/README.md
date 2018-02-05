@@ -19,3 +19,7 @@ task greet << {
 
 ### プロパティファイルで指定する
 [gradle.properties](./gradle.properties)に `systemProp` をプレフィックスとして付けてプロパティを記述する。
+
+## 拡張プロパティ
+編集中。
+
