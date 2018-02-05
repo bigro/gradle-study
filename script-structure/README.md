@@ -6,7 +6,7 @@
 ### コマンドライン引数で渡す場合
 `-D<プロパティ名>=<値>` で渡す。
 
-例；greetタスクを起動する際に `Hello` という文字列をmessageに渡す。
+例：greetタスクを起動する際に `Hello` という文字列をmessageに渡す。
  
  `gradle -Dmessage=Hello greet`
 
@@ -29,7 +29,7 @@ task greet << {
 ### コマンドライン引数で渡す場合
 `-P<プロパティ名>=<値>` で渡す。
 
-例；hogeタスクを起動する際に `HogeHoge` という文字列をhogehogeに渡す。
+例：hogeタスクを起動する際に `HogeHoge` という文字列をhogehogeに渡す。
 
 `gradle -Phogehoge=HogeHoge hoge`
 
@@ -42,3 +42,12 @@ task hoge << {
 
 ### プロパティファイルで指定する
 [gradle.properties](./gradle.properties)に `<プロパティ名>=<値>` と記述する。
+
+## プロジェクトプロパティのロード順|
+|ロード順|設定方法|
+|---|---|
+|1|プロパティファイル(プロジェクトディレクトリ)|
+|2|プロパティファイル(ホームディレクトリ)|
+|3|環境変数|
+|4|コマンドライン引数 -D|
+|5|コマンドライン引数 -P|
